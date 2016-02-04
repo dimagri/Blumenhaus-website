@@ -8,6 +8,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
 	margin:0;
 	outline:none;
 	list-style:none;
+	box-sizing:border-box;
 }
 select, input, textarea        { font-size:12px; vertical-align:middle; }
 textarea                       { vertical-align:top; }
