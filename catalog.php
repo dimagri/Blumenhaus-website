@@ -11,7 +11,7 @@
 	<?php 
 		include 'header.php';
 	?>
-	<main class="content catalog-page">
+	<main class="content catalog-page padding-top">
 		<aside class="sidebar">
 			<ul class="catalogs-list">
 				<li><a href="">Универсальные букеты</a></li>

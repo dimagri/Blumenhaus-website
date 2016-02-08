@@ -153,8 +153,8 @@ body img {
 
 .flower-info {
 	position: absolute;
-	right: 200px;
-	bottom: 130px;
+	right: 15%;
+	bottom: 17%;
 	color:white;
 }
 
@@ -289,18 +289,20 @@ body img {
 	font-weight: 500;
 }
 
-/* catalog-page */
+/* catalog page */
 
 .catalog-page {
 	background: url(../images/catalog-bg.jpg) no-repeat center center / cover;
 	background-attachment:fixed;
-	padding: 93.75px 0 0;
+}
+
+.padding-top {
+		padding: 93.75px 0 0;
 }
 
 .sidebar {
 	width: 240px;
 	background: rgba(255,255,255,0.5);
-	height:100%;
 	float: left;
 }
 
@@ -360,23 +362,30 @@ body img {
 	position: relative;
 }
 
+a.buy-btn {
+		display: block;
+		line-height: 25px;
+		background: rgba(255,255,255,0.5);
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 0 11%;
+		border-radius: 3px;
+}
+
 .product-info .buy-btn {
-	display: block;
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	line-height: 25px;
-	background: rgba(255,255,255,0.5);
-	text-transform: uppercase;
-	font-size: 12px;
-	padding: 0 30px;
-	border-radius: 3px;
 }
 
 .product-info .product-info-inner {
 	overflow: hidden;
 	width: 100%;
 	padding:0 0 0 46%;
+
+}
+
+.product-info-inner {
 	font-weight: 500;
 	font-size: 12px;
 }
@@ -388,9 +397,54 @@ body img {
 }
 
 .product-info-inner .model {
-
 	display: block;
 	padding: 12px 0 5px;
+}
+
+/* single page */
+
+.single-page {
+	position: relative;
+}
+
+.product-info-single {
+  position: absolute;
+	right: 11%;
+	top:25%;
+} 
+
+.product-info-single .product-info-inner {
+	margin: 0 0 40px;
+}
+
+.product-info-single .buy-btn {
+	display: inline-block;
+	margin: 0 0 25px;
+	font-weight:500;
+	padding:0 33px;
+	line-height: 32px;
+}
+
+.product-info-single .buy-btn.amount {
+	background: rgba(255,255,255,0.5);
+	background: -moz-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(250,250,250,0.5) 19%, rgba(248,248,248,0.5) 49%, rgba(245,245,245,0.05) 95%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.5)), color-stop(19%, rgba(250,250,250,0.5)), color-stop(49%, rgba(248,248,248,0.5)), color-stop(95%, rgba(245,245,245,0.05)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(250,250,250,0.5) 19%, rgba(248,248,248,0.5) 49%, rgba(245,245,245,0.05) 95%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(250,250,250,0.5) 19%, rgba(248,248,248,0.5) 49%, rgba(245,245,245,0.05) 95%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(250,250,250,0.5) 19%, rgba(248,248,248,0.5) 49%, rgba(245,245,245,0.05) 95%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(250,250,250,0.5) 19%, rgba(248,248,248,0.5) 49%, rgba(245,245,245,0.05) 95%, rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+
+.product-info-single .product-info-inner {
+	font-size: 13px;
+}
+
+.single .sidebar {
+	position: absolute;
+	left: 0;
+	z-index: 10;
+	top:93.75px;
 }
 
 /*----------------------------------------------------------------------------------*/

@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Index</title>
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 
@@ -10,7 +11,7 @@
 	<?php 
 		include 'header.php';
 	?>
-	<main class="content">
+	<main class="content single">
 		<aside class="sidebar">
 			<ul class="catalogs-list">
 				<li><a href="">Универсальные букеты</a></li>
@@ -29,6 +30,11 @@
 					<span class="model">Модель: Букет №8</span>
 					<span class="availability">Наличие: Есть в наличии</span>
 				</div>
+
+				<ul class="product-buttons">
+					<li><a href="" class="buy-btn amount" >1 букет</a></li>
+					<li><a href="" class="buy-btn">купить</a></li>
+				</ul>
 			</div>
 
 			<div class="flower-info">
