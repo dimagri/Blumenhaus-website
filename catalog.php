@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Index</title>
+<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 
@@ -10,7 +11,7 @@
 	<?php 
 		include 'header.php';
 	?>
-	<main class="content">
+	<main class="content catalog-page">
 		<aside class="sidebar">
 			<ul class="catalogs-list">
 				<li><a href="">Универсальные букеты</a></li>
@@ -21,10 +22,10 @@
 				<li><a href="">Дополнение к букету</a></li>
 			</ul>
 		</aside>
-		<section class="proucts-list section-left">
+		<section class="products-list section-left">
 			<ul>
 				<li>
-					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 грн.</span></div>
+					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 <span class="small">грн.</span></span></div>
 					<div class="product-info">
 						<a href="" class="buy-btn">купить</a>
 						<div class="product-info-inner">
@@ -35,7 +36,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 грн.</span></div>
+					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 <span class="small">грн.</span></span></div>
 					<div class="product-info">
 						<a href="" class="buy-btn">купить</a>
 						<div class="product-info-inner">
@@ -46,7 +47,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 грн.</span></div>
+					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 <span class="small">грн.</span></span></div>
 					<div class="product-info">
 						<a href="" class="buy-btn">купить</a>
 						<div class="product-info-inner">
@@ -57,7 +58,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 грн.</span></div>
+					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 <span class="small">грн.</span></span></div>
 					<div class="product-info">
 						<a href="" class="buy-btn">купить</a>
 						<div class="product-info-inner">
@@ -68,7 +69,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 грн.</span></div>
+					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 <span class="small">грн.</span></span></div>
 					<div class="product-info">
 						<a href="" class="buy-btn">купить</a>
 						<div class="product-info-inner">
@@ -79,7 +80,7 @@
 					</div>
 				</li>
 				<li>
-					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 грн.</span></div>
+					<div class="product-image-wrap"><img src="images/16.png" alt=""><span class="price">750 <span class="small">грн.</span></span></div>
 					<div class="product-info">
 						<a href="" class="buy-btn">купить</a>
 						<div class="product-info-inner">
