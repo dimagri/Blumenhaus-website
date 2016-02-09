@@ -218,7 +218,7 @@ body img {
 }
 
 .text p {
-	margin:0 0 50px;
+	padding:0 0 50px;
 }
 
 .catalog-block {
@@ -445,6 +445,143 @@ a.buy-btn {
 	left: 0;
 	z-index: 10;
 	top:93.75px;
+}
+
+/* events page */
+
+.events {
+	background: url(../images/35.jpg) no-repeat center center / cover;
+}
+
+.events .text {
+	margin: 60px 0 0;
+	color:white;
+	font-weight: 500;
+}
+
+.events .text h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 32px;
+	text-align: center;
+}
+
+.underlined:after {
+	content: '';
+	width: 60px;
+	height: 2px;
+	background: #E5BF92;
+	display: block;
+	margin: 30px auto;
+}
+
+.small-logo {
+	width: 40px;
+	height: 40px;
+	background: url('../images/round-logo.svg') no-repeat center center;
+	margin: 0 auto;
+	padding: 33px 0 90px;
+}
+
+/* delivery page */
+
+.delivery {
+	background: url(../images/33.jpg) no-repeat center center / cover;
+	color:white;
+	text-align: center;
+}
+
+.delivery-logo {
+	width: 120px;
+	height: 120px;
+	padding: 0;
+	margin: 40px auto;
+}
+
+.delivery .text h2 {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.delivery .text ul {
+	padding: 0 0 50px;
+}
+
+.delivery .text {
+	padding: 0 10% 80px;
+}
+
+/* about page */
+
+.about {
+	background: url(../images/about-bg.jpg) no-repeat center center / cover;
+	color:white;
+	min-height: calc(100% - 93.75px);
+}
+
+.about .text {
+	margin: 100px 0 0;
+}
+
+.about .delivery-logo {
+	height: 180px;
+	padding-bottom: 60px;
+	background-position: top center;
+	margin-bottom: 0;
+}
+
+/* contacts page */
+
+.contacts {
+	color:white;
+	background:url(../images/37.jpg) no-repeat center center / cover;
+	overflow:hidden;
+	position: relative;
+}
+
+.contacts a {
+	color:white;
+	font-size: 18px;
+}
+
+.contacts .map {
+	width: 45%;
+	float: left;
+	height:608px;
+	margin: 0 120px 0 0;
+}
+
+.contacts iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.address {
+
+}
+
+.address,.address .contact-info h2 {
+	overflow: hidden;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.address .contact-info {
+	margin: 70px 0 0;
+}
+
+.address .contact-info li {
+	margin: 0 0 40px;
+}
+
+.address .social-tree {
+	width: 170px;
+	height: 182px;
+	background: url(../images/social.svg) no-repeat center bottom / 100% auto;
+	position: absolute;
+	bottom: 0;
+	right:23%;
 }
 
 /*----------------------------------------------------------------------------------*/
