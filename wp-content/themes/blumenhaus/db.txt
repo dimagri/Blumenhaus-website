@@ -1,0 +1,4 @@
+Database:	blumenhaus_db
+Host:	localhost
+Username:	blumenhaus_db
+Password:	xriv5pri
